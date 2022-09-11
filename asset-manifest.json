@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/disney-hotstar/static/css/main.a9fe2681.css",
+    "main.js": "/disney-hotstar/static/js/main.3e460552.js",
+    "static/media/login-background.jpg": "/disney-hotstar/static/media/login-background.05b1a1b3088cbb458939.jpg",
+    "static/media/nationalB.jpg": "/disney-hotstar/static/media/nationalB.bb2d68fc8e79b39d5a09.jpg",
+    "static/media/marvelB.jpg": "/disney-hotstar/static/media/marvelB.08a9cd7aba6ab8ac6829.jpg",
+    "static/media/home.png": "/disney-hotstar/static/media/home.a0c4bdd961442f1bc8b1.png",
+    "static/media/pixar1B.webp": "/disney-hotstar/static/media/pixar1B.e73e5f166edfe15abfe7.webp",
+    "static/media/slider-scale.jpg": "/disney-hotstar/static/media/slider-scale.172c6eadbd086a14e2b2.jpg",
+    "static/media/slider-badag.jpg": "/disney-hotstar/static/media/slider-badag.36599446c404fd8b5989.jpg",
+    "static/media/disneyB.jpg": "/disney-hotstar/static/media/disneyB.fd4db0e427b819ee42a0.jpg",
+    "static/media/slider-scales.jpg": "/disney-hotstar/static/media/slider-scales.f921e314b30619f8ab7d.jpg",
+    "static/media/slider-badging.jpg": "/disney-hotstar/static/media/slider-badging.b33dd5b6b1aab9795814.jpg",
+    "static/media/starwarsB.webp": "/disney-hotstar/static/media/starwarsB.a1ed1032c5ceed5b76d8.webp",
+    "static/media/starwars.png": "/disney-hotstar/static/media/starwars.3fb2e20c0faee83d89db.png",
+    "static/media/partners.png": "/disney-hotstar/static/media/partners.e69ae55254630c715843.png",
+    "static/media/disney.png": "/disney-hotstar/static/media/disney.eb5bab59e7bf29389dc7.png",
+    "static/media/national.png": "/disney-hotstar/static/media/national.c50dd65f4a3d07a590f7.png",
+    "static/media/cta-logo-one.svg": "/disney-hotstar/static/media/cta-logo-one.1e2a5ccbbcbea0879d03.svg",
+    "static/media/disney.svg": "/disney-hotstar/static/media/disney.8205aae82a3c67ca943e.svg",
+    "static/media/slick.svg": "/disney-hotstar/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/disney-hotstar/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/disney-hotstar/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/disney-hotstar/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/movie-icon.svg": "/disney-hotstar/static/media/movie-icon.1a6f6ada8d37edf9c4a59f7ad16816f5.svg",
+    "index.html": "/disney-hotstar/index.html",
+    "static/media/series-icon.svg": "/disney-hotstar/static/media/series-icon.4d410db656710c14710332d27cec00a9.svg",
+    "static/media/search.svg": "/disney-hotstar/static/media/search.46aff20f64bfe1a300ddd5ef420fc006.svg",
+    "static/media/watchlist.svg": "/disney-hotstar/static/media/watchlist.0b5a945bede19872d5d95984d35ce12d.svg",
+    "static/media/original-icon.svg": "/disney-hotstar/static/media/original-icon.d7752d89e5a5d2b6276338bea45f413b.svg",
+    "static/media/home-icon.svg": "/disney-hotstar/static/media/home-icon.b6a11f9b406f2f13cd82608a276428e5.svg",
+    "main.a9fe2681.css.map": "/disney-hotstar/static/css/main.a9fe2681.css.map",
+    "main.3e460552.js.map": "/disney-hotstar/static/js/main.3e460552.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9fe2681.css",
+    "static/js/main.3e460552.js"
+  ]
+}
