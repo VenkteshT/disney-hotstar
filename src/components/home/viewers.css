@@ -1,0 +1,78 @@
+.container {
+  padding: 30px 8px 26px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  height: max-content;
+  align-items: center;
+  justify-content: space-around;
+}
+.wraper {
+  border-radius: 11px;
+}
+.wraper img {
+  border: solid 0.5em rgba(249, 249, 249, 0.1);
+  height: 10vh;
+  width: 14vw;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.wraper,
+.wraper img {
+  transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    gap: 85px;
+  }
+  .wraper {
+    width: 68%;
+  }
+}
+.wraper img {
+  border: solid 0.1em rgba(249, 249, 249, 0.1);
+  height: 13vh;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 69%) 0px 26px 29px 10px;
+}
+@media (max-width: 769px) {
+  .wraper img {
+    border: solid 0.5em rgba(249, 249, 249, 0.1);
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 770px) {
+  .wraper {
+    width: 18vw;
+    border-radius: 10px;
+  }
+  .wraper img {
+    border: solid 0.2em rgba(249, 249, 249, 0.1);
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+.wraper:hover {
+  scale: 1.04;
+  background-image: url("../../images/login-background.jpg");
+}
+.wraper1:hover {
+  background-image: url("./viewerBackground/disneyB.jpg");
+}
+.wraper2:hover {
+  background-image: url("./viewerBackground/marvelB.jpg");
+}
+.wraper3:hover {
+  background-image: url("./viewerBackground/pixar1B.webp");
+}
+.wraper4:hover {
+  background-image: url("./viewerBackground/starwarsB.webp");
+}
+.wraper5:hover {
+  background-image: url("./viewerBackground/nationalB.jpg");
+}

@@ -1,0 +1,119 @@
+.nav {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 20px;
+  height: 10vh;
+  border: #1f1f1f solid 0.04em;
+  border-radius: 5px;
+}
+.nav button {
+  background-color: inherit;
+  color: white;
+  border: 1px solid white;
+  height: 2rem;
+  width: 4rem;
+  border-radius: 3px;
+  padding: 5px;
+  transition: all 0.2s ease-in;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+}
+.nav button:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  transform: translateX(0%) translateY(-10%);
+}
+.nav-profile {
+  width: 2rem;
+  height: 1.4rem;
+  background-image: url("../../images/disney.svg");
+  scale: 2;
+  margin-left: 10px;
+}
+.nav-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 65%;
+}
+.home {
+  background-image: url("../../images/disney.svg");
+}
+a {
+  width: 70px;
+  display: flex;
+  font-display: row;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+a img {
+  scale: 0.5;
+}
+
+@media (max-width: 900px) {
+  .link .img,
+  .link img {
+    display: none;
+  }
+}
+a span {
+  font-weight: 650;
+}
+.photo {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+  border: solid white 0.1em;
+  border-radius: 50px;
+  min-width: 45px;
+  height: 55px;
+  transition: all 0.43s ease;
+}
+
+.sign-out {
+  position: relative;
+  right: 0;
+  top: 68px;
+  margin-right: 7px;
+  border: solid white 0.07em;
+  padding: 8px;
+  border-radius: 4px;
+  opacity: 0;
+  top: 0;
+  transition: all 200ms ease-in;
+  margin-top: 90%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  background-color: #040714;
+  z-index: 1;
+}
+.sign-out-photo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* border: solid 0.1em white; */
+}
+
+.sign-out-photo:hover .sign-out {
+  opacity: 1;
+  background-color: white;
+  color: black;
+}
+.img {
+  transition: all 0.3s ease;
+}
+.link:hover .img {
+  border-bottom: 0.1em white solid;
+}

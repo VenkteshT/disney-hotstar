@@ -1,0 +1,74 @@
+.container {
+  height: 90vh;
+}
+.content {
+  background-image: url("../../images/login-background.jpg");
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 40px;
+  height: 100%;
+}
+.contents {
+  /* border: 0.1em lawngreen solid; */
+  height: 80vh;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  object-fit: contain;
+  padding: 20px;
+  height: 100vh;
+}
+.content-owner {
+  background-image: url("../../images/cta-logo-one.svg");
+  min-width: 4rem;
+  min-height: 1rem;
+  scale: 4;
+}
+.content-btn {
+  width: 97%;
+  height: 13%;
+  font-weight: 550;
+  font-size: 200%;
+}
+.btn {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  transition: all 0.4s ease-in-out;
+}
+.content-btn a {
+  background-color: blue;
+}
+.content-partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+}
+.content-descrition {
+  width: 60%;
+  /* border: solid 0.1em white; */
+  text-align: center;
+  font-size: 0.8em;
+  padding: 5px;
+}
+.content-partners img {
+  width: 100%;
+}
+.btn:hover {
+  background-color: whitesmoke;
+  color: black;
+}

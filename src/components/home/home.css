@@ -1,0 +1,16 @@
+.main {
+  background-image: url("../../images/home.png");
+  position: relative;
+  top: 74px;
+  min-height: calc(100vh - 250px);
+  padding: 0 calc(3.5vw + 5px);
+  overflow-x: hidden;
+  padding: 10px;
+  width: 100%;
+}
+
+.pro {
+  width: 80%;
+  position: absolute;
+  right: 0;
+}
