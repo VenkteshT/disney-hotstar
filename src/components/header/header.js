@@ -18,9 +18,9 @@ export default function Header() {
   function loginHandler() {
     console.log(person);
     if (!person.name) {
-      // auth
-      //   .signInWithPopup(provider)
-      //   .then((res) => {
+       auth
+       .signInWithPopup(provider)
+       .then((res) => {
       dispatch(
         userActions.setLogInDetails({
           name: "res.user.displayName",
@@ -28,16 +28,16 @@ export default function Header() {
           photo: "res.user.photoURL",
         })
       );
-      // })
-      // .catch((err) => console.log(err));
+       })
+      .catch((err) => console.log(err));
     } else if (person.name) {
-      // auth
-      //   .signOut()
-      //   .then((user) => {
+      auth
+        .signOut()
+         .then((user) => {
       dispatch(userActions.logOut());
       navigate("/");
-      // })
-      // .then((err) => console.log(err));
+      })
+      .then((err) => console.log(err));
       navigate("/home");
     }
   }
