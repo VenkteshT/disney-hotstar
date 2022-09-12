@@ -24,7 +24,7 @@ export default function Home() {
     }
   }, [user]);
   return user ? (
-    <main className={`main ${profile ? "pro" : ""}`}>
+    <main className="main ">
       <Slider />
       <Viewers />
       <Recomended />

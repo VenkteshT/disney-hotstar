@@ -18,26 +18,26 @@ export default function Header() {
   function loginHandler() {
     console.log(person);
     if (!person.name) {
-      auth
-        .signInWithPopup(provider)
-        .then((res) => {
-          dispatch(
-            userActions.setLogInDetails({
-              name: res.user.displayName,
-              email: res.user.email,
-              photo: res.user.photoURL,
-            })
-          );
+      // auth
+      //   .signInWithPopup(provider)
+      //   .then((res) => {
+      dispatch(
+        userActions.setLogInDetails({
+          name: "res.user.displayName",
+          email: "res.user.email",
+          photo: "res.user.photoURL",
         })
-        .catch((err) => console.log(err));
+      );
+      // })
+      // .catch((err) => console.log(err));
     } else if (person.name) {
-      auth
-        .signOut()
-        .then((user) => {
-          dispatch(userActions.logOut());
-          navigate("/");
-        })
-        .then((err) => console.log(err));
+      // auth
+      //   .signOut()
+      //   .then((user) => {
+      dispatch(userActions.logOut());
+      navigate("/");
+      // })
+      // .then((err) => console.log(err));
       navigate("/home");
     }
   }
